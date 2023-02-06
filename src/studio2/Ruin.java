@@ -28,7 +28,7 @@ public class Ruin {
 			newAmount++;
 			count++;
 			//Win Result
-			System.out.println(startAmount);
+			System.out.println(newAmount);
 		} 
 		else {
 			newAmount--;
@@ -36,8 +36,11 @@ public class Ruin {
 			//Lose Result
 		}
 		System.out.println(newAmount);
+		//System.out.println("Simulation" + x + ": " + count);
 		}
 		System.out.println("Simulation " + x + ": " + count);
+		newAmount = startAmount;
+		count = 0;
 		}
 		
 	}
